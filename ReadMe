@@ -1,0 +1,120 @@
+
+to create a page  .... 
+
+to feed the API   ---- POST
+
+.... To feed the data
+
+    ... title : Tomatoes
+    ... Price:  25 pkr per Kilo
+    ....Picture: upload
+    .... description: "asdasdasdsada"
+
+Every post creates an Item in the db... after posting the form is ready to take another input.
+
+
+Consume the API ...... when you call your itemList. all the items in the db are displayed. .... purana item. purana itemsList
+
+
+///// Update the API ////
+
+1) Update the content of the items.
+
+
+2) Verify the contents.
+
+
+
+
+
+////// UI , which lists all the users, and then assigns different roles.
+
+
+smart tables  --- with all the users
+click edit to change the role of the user, or block the user, or reset the password.
+
+edit pe model mey load kara do.
+
+(Modify Item) 
+
+
+
+//// User management ///
+
+
+1) User should be able to sign-up  and login ... default role is user.
+
+
+2) Signed in User can see his profile.  done
+
+3) System Administrator assigns the roles to different users. ... hum yahan hein
+
+
+////// profile page... 
+
+user ki Picture
+then the details.   ... done
+
+
+/////////
+
+
+Authentication .. ///   Chokidar //// Security gaudard /// gate pe baita howa /// wo ap se ID card /// agay peeche daikta hey//// entry pass /// scan kare ga.//
+
+Authorization  ......rooms//// floors//// drinks////  ...////// 
+
+
+
+sysAdmin1- ---Role ---   sysAdmin
+sysAdmin2 ---Role        sysAdmin
+
+
+sales1    ---- Role   --- Salesman
+sales2---------Role ----- Salesman
+
+
+Manager1 -------Role ------- Manager
+manager 2--------              manager
+
+
+user1
+user2 
+user3
+--------
+
+
+delivery1   -----
+delivery2  -----
+
+
+////////////////////////////////////////////////
+
+
+
+
+
+List All the actions for various roles ........  
+
+
+for exampl
+
+
+
+
+
+
+
+
+
+/////////////// ///
+
+
+
+We Need the following roles 
+
+1) Sys Admin : assigns roles to system users
+2) Salesman : enters data
+3) Sales Manager : verifies the data ... nothing unverified should be visible to users
+4) User: "shopping karta hey sala"
+5) Delivery: delivers the shopping items
+

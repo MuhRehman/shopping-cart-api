@@ -1,0 +1,187 @@
+pure function
+impure function
+
+this.eligbileAge =18;
+
+impure =(age)=>{
+
+if (age>this.eligbileAge)
+return true
+else false
+
+}
+
+
+function forexample (a, b)
+{
+    return (a*b + date.now());
+}
+
+
+
+forexample(5, 7);    ///12;
+
+forexample (5, 7);;;   /// 12;
+
+
+
+
+
+
+pure function  wo hey.... agar wo same arguments k saath hamesha wohi output dey ....
+
+impure(43); //// true // 35 // true
+
+impure(17) .... false    //// input..... is arguments ...... output .... returns.
+
+this.eligbileAge=10;
+
+impure(17) ... /// true
+
+
+
+context   //// How to use //
+
+
+//// when  to use ///
+
+
+
+
+///////  Strapi End point for User registration
+
+"https://mangakure.com/auth/local/register"
+
+
+////// strapi End point for user Authentication
+
+ "https://mangakure.com/auth/local"
+
+
+
+
+ ////////  comparision of localStorage with context api   //////// 
+
+ //// storing data.. no matter what type of data.
+
+ ///  context api .... to avoid the drill down of props.  //// provide global variables  
+  
+
+
+//////  hooks   //////
+
+/// aik  Bhongi hey...  /// Facebook ki
+
+/// new programmers .... complaining about classesses, this.setState, oop, function binding
+
+functional components  ... with capability to use the state.
+
+
+ //   let arr = ["ubaid", "Mateen", "jawad"]  //////// simple array
+
+  //   arr[0]  //// "ubaid"
+
+  //   arr["firstPerson"]  /////  "ubaid"  //////
+
+  let arr = ["john", "newyork", 36];
+
+  let obj = { name: "john", city: "newyork", age: "36" };
+
+  console.log(typeof arr); //// john
+  console.log(typeof obj); ///// john
+
+  arr["name"]= "panga!!!";
+  console.log(arr.length);
+  console.log(obj.length);
+  console.log(arr);
+
+
+  //////  convention 
+
+let variableName
+
+function setMax(){}
+getMax() {};
+
+useRehman()
+
+
+
+Concepts of redux --- mspaint ki file hey.
+....... what do we neeed
+
+////// teeno ki documentation  aik jaga pe hey...../////
+
+1) redux  - done   - -- provide the core redux library   
+2) redux-toolkit  ---- done  provides additional features / enhancements
+3) react-redux    --- done  ---- to connect redux to react. (ho gae!!!)
+4) chorme ka extension -- redux devtools  -- done  --- to verify the redux store --- just like console. 
+
+slow and steady wins the race
+
+
+/// reducer ko call karne k liye ...
+
+dispach ko use karna hye.....
+
+
+magar........
+
+dispatch ko aik argument daina hey... jo k action ka object hey  ///  dispatch({type:"cart/addItem", payload: {item: props.product}})
+
+action ka object baar baar likna aik museebat hey...
+tho hum aik action ka function call kar laite hein.     addItem({item:props.product})
+ab asan ho gaya   ....  dispatch(addItem({item:props.product}))
+                     
+                     action  //// action creator  
+
+                     {type:"cart/addItem", payload: {item: props.product}   //////////  addItem({item:props.product})
+
+
+
+dispatch kehta hey .. bhae mujay action btao... mujay kaam btao mey kia karon mey kis khaon?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+........
+middleware  === thunk middleware library
+immer .. library hey
+redux-dev tools
+
+
+
+
+...... image update k two methods..
+
+
+ ////// aik tareeqa  ////  to skip uploading the picture, if user input is empty.
+    else formData.append("data", JSON.stringify(fields)); ///  Only update the data///
+
+    ////// second method   //// to convert this.state.image into a blob //// less effecient
+
+    ///  {
+    //   let blob = await fetch(this.state.imageUrl).then((r) => r.blob());  /// convert img url to blob
+    //   formData.append("files.image", blob, this.state.image.name);
+    //   ////// Append the Data fields..
+    //   formData.append("data", JSON.stringify(fields));
+    //   }
+
+
+
+
